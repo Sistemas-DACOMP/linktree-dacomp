@@ -119,6 +119,20 @@ body {
     background-color: var(--hover-bg);
 }
 
+.techweek-card {
+    background-color: #1e3a8a; /* Dark blue background */
+    color: #ffffff; /* White text */
+    border: 1px solid #1e40af;
+}
+
+.techweek-card:hover {
+    background-color: #1e40af; /* Slightly lighter dark blue on hover */
+}
+
+.techweek-card .link-action {
+    color: #93c5fd;
+}
+
 .link-icon {
     font-size: 1.25rem;
     display: flex;
