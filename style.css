@@ -120,16 +120,21 @@ body {
 }
 
 .techweek-card {
+    background-color: #e0f2fe; /* Light blue background */
+    color: #0369a1; /* Dark blue text */
+    border: 1px solid #bae6fd;
     background-color: #1e3a8a; /* Dark blue background */
     color: #ffffff; /* White text */
     border: 1px solid #1e40af;
 }
 
 .techweek-card:hover {
+    background-color: #bae6fd; /* Slightly darker blue on hover */
     background-color: #1e40af; /* Slightly lighter dark blue on hover */
 }
 
 .techweek-card .link-action {
+    color: #0ea5e9;
     color: #93c5fd;
 }
 
